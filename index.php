@@ -5,7 +5,7 @@
     include './functions/translit.php'; // функція яка заміняє кирилицю на латиницю
     include './functions/getfiles.php'; // функція яка повертає масив файлів в папці (їх назви)
     include './functions/deletesymbols.php'; // функція яка видаляє зайві символи
-
+    include './functions/copyfiles.php';
     // 1. Подивитись в папку з файлами та вивести їх в консоль.
     $files = getfiles($FILES); // масив що містить старі назви файлів
 
@@ -23,4 +23,5 @@
 
     print_r($new_files_clear); // Отримали індексований масив, у якого ключ - стара назва, значення - нова назва.
 
-    // TODO:Написати функцію, яка створить перейменовані копії файлів в папці $FILES_N (files_new)
+
+    copyfiles($FILES, $FILES_N, $new_files_clear);
