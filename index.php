@@ -1,5 +1,9 @@
 <?php
-include 'form.php';
+    include 'form.php';
+    include 'upload.php';
+    include 'listF.php';
+    $location = 'uploads';
+    listF($location);
 ?>
 <h3>
     Завдання 5: Завантаження файлів на сервер
