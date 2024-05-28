@@ -1,0 +1,19 @@
+{
+    "name": "me/task_7",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Me\\Task7\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MenshikovMakxim",
+            "email": "147256792+MenshikovMakxim@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "nikic/fast-route": "^1.3",
+        "latte/latte": "^3.0"
+    }
+}
