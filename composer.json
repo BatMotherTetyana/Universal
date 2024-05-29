@@ -1,15 +1,15 @@
 {
-    "name": "me/task_7",
+    "name": "limbo/ex7",
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Me\\Task7\\": "src/"
+            "Limbo\\ex7\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "MenshikovMakxim",
-            "email": "147256792+MenshikovMakxim@users.noreply.github.com"
+            "name": "Limbo",
+            "email": "160131279+BatMotherTetyana@users.noreply.github.com"
         }
     ],
     "require": {
